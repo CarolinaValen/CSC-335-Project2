@@ -1,1 +1,1 @@
-# CSC-355-Project2
+# CSCI-355-Project2
