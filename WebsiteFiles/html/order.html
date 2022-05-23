@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="order.css" />
+    <title>Bulk order</title>
+  </head>
+  <body>
+      <img src="logo.jpg"
+      width = "300"
+      height="300"
+      class="center">
+    <div>
+        <div>
+            <input type="text" id="Name" placeholder="Enter your full name" />
+        </div>
+        <div>
+            <input type="text" id="Email" placeholder="Enter your email address" />
+        </div>
+        <div>
+            <select id="Tea">
+                <option selected value=""> Choose a Tea </option>
+                <option value="GreenTea">Green Tea</option>
+                <option value="BlackTea">Black Tea</option>
+                <option value="SpecialBlend">Special Blend</option>
+            </select>
+        </div>
+        <div>
+            <select id="Quantity">
+                <option selected value=""> Choose a Quantity </option>
+                <option value="fourth-pound">1/4 Pound ~ $12.50</option>
+                <option value="Pound">Pound ~ $36.75</option>
+                <option value="Sample">Sample 5 teaspoons ~ $3.00</option>
+            </select>
+        </div>
+        <div>
+            <input type="button" id="bt" value="Order" onclick="saveFile()" />
+        </div>
+
+    </div>
+    <script src="order.js"></script>
+ </body>
+    
+</html>
